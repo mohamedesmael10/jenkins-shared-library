@@ -1,5 +1,4 @@
-
-def call(String imageName, String tag, String repoUrl) {
+ def call(String imageName, String tag, String repoUrl, String branch ) {
     pipeline {
         agent any
         environment {
