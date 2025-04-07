@@ -1,0 +1,12 @@
+
+1-what is the benefit of using master-slave architecture rather than building on master only ?
+
+2-try to make new agent as container using docker plugin  and configure master to use it and build pipeline on this agent
+
+3-run pipeline to run bash script located on github repo 
+
+4-run new pipeline using jenkins shared library to build, push dockerfile existed on github repo 
+
+
+
+
