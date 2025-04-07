@@ -4,7 +4,10 @@ def call(String imageName, String tag, String repoUrl, String branch) {
     stage('Checkout') {
         checkout([$class: 'GitSCM',
                   branches: [[name: branch]],
-                  userRemoteConfigs: [[url: repoUrl]]
+                  userRemoteConfigs: [[
+                      url: repoUrl,
+                      credentialsId: 'mohamedesmael10'
+                  ]]
         ])
     }
 
